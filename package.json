@@ -1,5 +1,5 @@
 {
-  "name": "binar-fsw-challenge-04",
+  "name": "challenge-chapter3",
   "version": "1.0.0",
   "description": "Project HTTP Server dan DOM",
   "main": "server/index.js",
@@ -8,6 +8,9 @@
   "private": false,
   "scripts": {
     "start": "node server/index.js",
-    "ferdy": "node ferdy.js"
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.22"
   }
 }
